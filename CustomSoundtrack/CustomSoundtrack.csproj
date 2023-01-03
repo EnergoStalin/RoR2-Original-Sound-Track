@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.8">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BepInEx.BaseLib" Version="5.4.19" />
+		<PackageReference Include="NAudio.Asio" Version="2.1.0" />
+		<PackageReference Include="NAudio.Core" Version="2.1.0" />
+		<PackageReference Include="R2API.Core" Version="5.0.3" />
+	</ItemGroup>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="mkdir &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack&quot;&#xD;&#xA;copy &quot;$(TargetPath)&quot; &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack\*&quot;&#xD;&#xA;&#xD;&#xA;copy &quot;$(SolutionDir)manifest.json&quot; &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack\*&quot;&#xD;&#xA;copy &quot;$(SolutionDir)icon.png&quot; &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack\*&quot;&#xD;&#xA;copy &quot;$(SolutionDir)README.md&quot; &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack\*&quot;&#xD;&#xA;copy &quot;$(TargetDir)$(MSBuildProjectName).pdb&quot; &quot;$(SolutionDir)..\RoR2Modded\BepInEx\plugins\CustomSoundtrack\*&quot;" />
+	</Target>
+</Project>

@@ -1,7 +1,10 @@
 {
-    "name": "OriginalSoundTrack",
+    "name": "CustomSoundtrack",
     "description": "A mod that allows you to play Risk of Rain 1 (or any) music in place of the normal soundtrack.",
-    "website_url": "https://github.com/kylepaulsen/RoR2-Original-Sound-Track",
-    "version_number": "1.2.0",
-    "dependencies": []
+    "website_url": "https://github.com/EnergoStalin/RoR2-Custom-Soundtrack",
+    "version_number": "1.0.0",
+    "dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+	]
 }

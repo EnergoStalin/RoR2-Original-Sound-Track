@@ -1,13 +1,13 @@
 <?xml version = "1.0"?>
-<settings>
+<Settings>
     <!-- Master volume for all music. Decimal between 0 and 1 -->
-    <volume>0.5</volume>
+    <Volume>0.5</Volume>
 
     <!-- Should music loop? If not true, then another song is selected from scene matches -->
-    <loop>true</loop>
+    <Loop>true</Loop>
 
     <!-- Should include music in Risk of Rain 2 OST pool? If true, then normal soundtrack is played in place of absent music defiend here -->
-    <pool>true</pool>
+    <Pool>true</Pool>
 
     <!-- To have this plugin scan a different directory for music files,
         Uncomment <music-path> below (remove <!- - and - -> from the line below) -->
@@ -48,126 +48,126 @@
         then this plugin will choose one randomly. If NO matches are found, then the plugin will choose a random
         sound file it found in the plugin folder.
     -->
-    <music>
-        <song
-            name="01 Risk of Rain.mp3"
-            scenes="splash,intro,title,lobby,logbook,bazaar,crystalworld,eclipseworld"
-            boss="false"
-            volume="1"
+    <Music>
+        <Song
+            Name="01 Risk of Rain.mp3"
+            Scenes="splash,intro,title,lobby,logbook,bazaar,crystalworld,eclipseworld"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="02 Dew Point.mp3"
-            scenes="blackbeach,golemplains,goolake,foggyswamp"
-            boss="true"
-            volume="1"
+        <Song
+            Name="02 Dew Point.mp3"
+            Scenes="blackbeach,golemplains,goolake,foggyswamp"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="03 Tropic of Capricorn.mp3"
-            scenes="dampcavesimple"
-            boss="false"
-            volume="1"
+        <Song
+            Name="03 Tropic of Capricorn.mp3"
+            Scenes="dampcavesimple"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="04 Monsoon.mp3"
-            scenes="blackbeach,golemplains"
-            boss="false"
-            volume="1"
+        <Song
+            Name="04 Monsoon.mp3"
+            Scenes="blackbeach,golemplains"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="05 Cyclogenesis.mp3"
-            scenes="foggyswamp,shipgraveyard,arena"
-            boss="false"
-            volume="1"
+        <Song
+            Name="05 Cyclogenesis.mp3"
+            Scenes="foggyswamp,shipgraveyard,arena"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="06 25.3 N 91.7 E.mp3"
-            scenes="outro"
-            boss="false"
-            volume="1"
+        <Song
+            Name="06 25.3 N 91.7 E.mp3"
+            Scenes="outro"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="06 25.3 N 91.7 E.mp3"
-            scenes="mysteryspace"
-            boss="false"
-            volume="0"
+        <Song
+            Name="06 25.3 N 91.7 E.mp3"
+            Scenes="mysteryspace"
+            Boss="false"
+            Volume="0"
         />
-        <song
-            name="07 Hailstorm.mp3"
-            scenes="goldshores"
-            boss="false"
-            volume="1"
+        <Song
+            Name="07 Hailstorm.mp3"
+            Scenes="goldshores"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="07 Hailstorm.mp3"
-            scenes="frozenwall,wispgraveyard,dampcavesimple,shipgraveyard"
-            boss="true"
-            volume="1"
+        <Song
+            Name="07 Hailstorm.mp3"
+            Scenes="frozenwall,wispgraveyard,dampcavesimple,shipgraveyard"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="08 Moisture Deficit.mp3"
-            scenes="goolake,wispgraveyard"
-            boss="false"
-            volume="1"
+        <Song
+            Name="08 Moisture Deficit.mp3"
+            Scenes="goolake,wispgraveyard"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="10 Tropic of Cancer.mp3"
-            scenes="foggyswamp,goolake,wispgraveyard,frozenwall,skymeadow"
-            boss="true"
-            volume="1"
+        <Song
+            Name="10 Tropic of Cancer.mp3"
+            Scenes="foggyswamp,goolake,wispgraveyard,frozenwall,skymeadow"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="11 Aurora Borealis.mp3"
-            scenes="blackbeach,golemplains,frozenwall"
-            boss="false"
-            volume="1"
+        <Song
+            Name="11 Aurora Borealis.mp3"
+            Scenes="blackbeach,golemplains,frozenwall"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="12 Surface Tension.mp3"
-            scenes="blackbeach,golemplains,goolake,foggyswamp,skymeadow"
-            boss="true"
-            volume="1"
+        <Song
+            Name="12 Surface Tension.mp3"
+            Scenes="blackbeach,golemplains,goolake,foggyswamp,skymeadow"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="13 Arctic Oscillation.mp3"
-            scenes="frozenwall,skymeadow"
-            boss="false"
-            volume="1"
+        <Song
+            Name="13 Arctic Oscillation.mp3"
+            Scenes="frozenwall,skymeadow"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="14 Precipitation.mp3"
-            scenes="limbo"
-            boss="false"
-            volume="1"
+        <Song
+            Name="14 Precipitation.mp3"
+            Scenes="limbo"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="14 Precipitation.mp3"
-            scenes="moon"
-            boss="true"
-            volume="1"
+        <Song
+            Name="14 Precipitation.mp3"
+            Scenes="moon"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="15 Double Fucking Rainbow.mp3"
-            scenes="goldshores,artifactworld"
-            boss="false"
-            volume="1"
+        <Song
+            Name="15 Double Fucking Rainbow.mp3"
+            Scenes="goldshores,artifactworld"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="15 Double Fucking Rainbow.mp3"
-            scenes="dampcavesimple,shipgraveyard"
-            boss="true"
-            volume="1"
+        <Song
+            Name="15 Double Fucking Rainbow.mp3"
+            Scenes="dampcavesimple,shipgraveyard"
+            Boss="true"
+            Volume="1"
         />
-        <song
-            name="16 Coalescence.mp3"
-            scenes="moon"
-            boss="false"
-            volume="1"
+        <Song
+            Name="16 Coalescence.mp3"
+            Scenes="moon"
+            Boss="false"
+            Volume="1"
         />
-        <song
-            name="17 Chanson d'Automne.mp3"
-            scenes="wispgraveyard,goolake,foggyswamp,skymeadow"
-            boss="false"
-            volume="1"
+        <Song
+            Name="17 Chanson d'Automne.mp3"
+            Scenes="wispgraveyard,goolake,foggyswamp,skymeadow"
+            Boss="false"
+            Volume="1"
         />
-    </music>
-</settings>
+    </Music>
+</Settings>
